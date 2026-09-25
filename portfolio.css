@@ -1,0 +1,107 @@
+body {
+    font-family: cursive, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+header {
+    background-color: #D96868;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #ae4e4e;
+    padding: 15px;
+    text-align: right;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: black;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+article {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #677E61;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #677E61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#about{
+    background-color: #91AE6E;
+}
+#skills{
+    background-color: #91AE6E;
+}
+#projects{
+    background-color: #91AE6E;
+}
+#interest{
+   background-color: #89bb6e;
+}
+#contact{
+   background-color: #89bb6e;
+}
