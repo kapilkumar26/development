@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FCF1D0;
+    color: black;
+}
+
+
+/* Navigation Hover Transition */
+.navbar {
+    background-color: #FCF1D0 !important;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #8B5CF6 !important;
+    transform: scale(1.1);
+}
+
+
+/* Landing Page */
+
+.hero {
+    background: linear-gradient(135deg, #0B1020, #171B3A, #312E81);
+    color: white;
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* Hero Heading */
+
+.hero h1 {
+    font-size: 50px;
+    color: #F8FAFC;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #CBD5E1;
+}
+
+
+/* Space Area */
+
+.space {
+    position: relative;
+    height: 400px;
+}
+
+
+/* Rocket */
+
+.rocket {
+    position: absolute;
+    font-size: 80px;
+
+    left: 40%;
+    top: 30%;
+
+    animation: rocketMove 4s infinite;
+}
+
+
+/* Astronaut */
+
+.astronaut {
+    position: absolute;
+    font-size: 60px;
+
+    right: 20%;
+    top: 50%;
+
+    animation: astronautFloat 3s infinite;
+}
+
+
+/* Rocket Keyframe Animation */
+
+@keyframes rocketMove {
+
+    0% {
+        transform: translate(0, 100px) rotate(-8deg);
+    }
+
+    50% {
+        transform: translate(50px, -50px) rotate(10deg);
+    }
+
+    100% {
+        transform: translate(0, 100px) rotate(-10deg);
+    }
+
+}
+
+
+/* Astronaut Keyframe Animation */
+
+@keyframes astronautFloat {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+/* Missions */
+
+.missions {
+    background: linear-gradient(135deg, #111827, #1E1B4B);
+}
+
+
+/* Mission Cards */
+
+.mission-card {
+    height: 100%;
+    background-color: #1E293B;
+    color: #F8FAFC;
+    border: 1px solid #334155;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.mission-card:hover {
+    transform: translateY(-10px);
+    border-color: #67E8F9;
+    box-shadow: 0 10px 30px rgba(103, 232, 249, 0.2);
+}
+
+
+/* Buttons */
+
+button,
+.btn {
+     background-color: #8B5CF6;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover,
+.btn:hover {
+     background-color: #06B6D4;
+    color: #0B1020;
+
+}
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        min-height: auto;
+        padding: 80px 0;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .space {
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .rocket {
+        font-size: 60px;
+    }
+
+    .astronaut {
+        font-size: 45px;
+    }
+
+}
+
